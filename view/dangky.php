@@ -41,7 +41,7 @@
                 <div class="col-lg-6">
                     <div class="login_form_inner">
                         <h3>Đăng ký</h3>
-                        <form class="row login_form" action="../controller/xulydangky.php" method="POST" id="frmDangKy">
+                        <form class="row login_form" action="../controller/usercontroller.php" method="POST">
                             <div class="col-md-12 form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Họ và tên" onfocus="this.placeholder = 'Họ và tên'" onblur="this.placeholder = 'Họ và tên'">
                             </div>
@@ -52,7 +52,7 @@
                                 <input type="password" class="form-control" id="password" name="password" pattern="^[a-zA-Z0-9\+_\-]*$" placeholder="Mật Khẩu" onfocus="this.placeholder = 'Mật Khẩu'" onblur="this.placeholder = 'Mật Khẩu'">
                             </div>
                             <div class="col-md-12 form-group">
-                                <input type="password" class="form-control" id="repassword" name="repassword" pattern="^[a-zA-Z0-9\+_\-]*$" placeholder="Nhập Lại Mật Khẩu" onfocus="this.placeholder = 'Nhập Lại Mật Khẩu'" onblur="this.placeholder = 'Nhập Lại Mật Khẩu'">
+                                <input type="password" class="form-control" id="confirm" name="confirm" pattern="^[a-zA-Z0-9\+_\-]*$" placeholder="Nhập Lại Mật Khẩu" onfocus="this.placeholder = 'Nhập Lại Mật Khẩu'" onblur="this.placeholder = 'Nhập Lại Mật Khẩu'">
                             </div>
                             <div class="col-md-12 form-group">
                                 <div class="creat_account">
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 form-group">
-                                <button type="submit" value="submit" class="primary-btn" id="btnDangKy">Đăng Ký</button>
+                                <button type="submit" value="signup" class="primary-btn" name="user">Đăng Ký</button>
                             </div>
                         </form>
                     </div>

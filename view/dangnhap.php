@@ -38,7 +38,7 @@
                 <div class="col-lg-6">
                     <div class="login_form_inner">
                         <h3>Đăng nhập</h3>
-                        <form class="row login_form" action="../controller/xulydangnhap.php" method="POST" id="frmDangNhap">
+                        <form class="row login_form" action="../controller/usercontroller.php" method="POST">
                             <div class="col-md-12 form-group">
                                 <input type="email" class="form-control" id="email" name="email" pattern="^([a-zA-Z0-9\+_\-]+)(\.[a-zA-Z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$" placeholder="Địa Chỉ Email" onfocus="this.placeholder = 'Địa Chỉ Email'" onblur="this.placeholder = 'Địa Chỉ Email'" required>
                             </div>
@@ -52,7 +52,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 form-group">
-                                <button type="submit" value="submit" class="primary-btn" id="btnDangNhap">Đăng nhập</button>
+                                <button type="submit" class="primary-btn" id="user" name="user" value="signin">Đăng nhập</button>
                                 <a href="quenmatkhau.php">Quên mật khẩu</a>
                             </div>
                         </form>
