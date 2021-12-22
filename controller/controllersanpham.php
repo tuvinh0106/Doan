@@ -36,7 +36,7 @@ function connectDatabase()
         echo "Error: " . $e->getMessage;
         die();
     }
-    $conn = null
+    $conn = null;
 }
 function inforSanPham($masp)
 {
