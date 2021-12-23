@@ -43,10 +43,6 @@ function checkPass($pass, $email)
     $stmt->execute();
     $result = $stmt->fetchColumn();
     $verify = strcmp($pass, $result);
-    if ($verify == 0) {
-        return true;
-    }
-    return false;
 }
 
 
