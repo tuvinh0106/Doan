@@ -1,6 +1,5 @@
 <?php
-include_once '../model/admin.php';
-include_once '../utils/checkMail.php';
+
 
 
 
